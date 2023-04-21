@@ -1,3 +1,23 @@
+.top_section{
+    background-color: #1f2937;
+    padding: 0%;
+}
 .header{
-    justify-content: space-between;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 60px;
+}
+.logo{
+    border: 5px solid black;
+    color: #f9faf8;
+    font-size: 24px;
+
+}
+.links{
+    border: 5px solid gold;
+    display: flex;
+    gap: 60px;
+    font-size: 18px;
+    color: #e5e7eb;
 }
