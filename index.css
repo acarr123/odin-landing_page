@@ -70,12 +70,10 @@
     justify-self: center;
 }
 .middle_section{
-border: black solid;
 display: flex;
 justify-content: center;
 }
 .middle_container{
-    border: orange solid 4px;
     display: flex;
     flex-direction: column;
     padding-bottom: 32px;
@@ -89,16 +87,35 @@ justify-content: center;
     text-align: center;
 }
 .boxes{
-    border: #3882f6 solid;
     display: flex;
     gap: 50px;
 }
 .box{
     flex-wrap: wrap;
+    text-align: center;
 }
 .content_img{
     width: 200px;
     height: 200px;
     background-color: #3882f6;
     border-radius: 15px;
+}
+.third_section{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-wrap: wrap;
+}
+.quote{
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+.copywrite_section{
+    display: flex;
+    justify-content: center;
+}
+.copywrite_section div{
+    font-size: smaller;
 }
